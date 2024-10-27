@@ -1,0 +1,19 @@
+by default all folder in app folder server comp. 
+
+to specifically make any comp client side comp we have to mention "use client" directive at the top of the file to make it client side.
+
+whenever we are using any hooks like useState or other client side management things its important to mention them as 'use client'
+
+state management in react is primarily handled in the client side
+
+
+Q. now the question is  when to use server comp and when to use client ?
+
+-> use server comp default. only use client comp when its needed
+
+-> server comp - fetching data, accessing backend resourses, 
+                wehn you want keeping sensitive info,  when you want to reduce the js load on client side
+
+-> client comp - evt listeners, hooks, custom hooks that depends 
+                on browser only apis, class components
+

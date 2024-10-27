@@ -1,0 +1,17 @@
+https://youtu.be/PiN5Op_Lnmw?si=kiUeKY5k-zwBxUVD
+
+1. uses server side rendering -
+    react uses client side rendering, means when user uses a react app the serversends the js html and other files then its rendered in users comp. but it is a slow process. bcz the rendertime depends on the users device.
+        next js uses server sider rendering, means the server sends the rendered html and css files and the rendering is done on the server. which reduces the load time
+    this helps for SEO
+
+2. creating routes - 
+    for routing in react we use react router that we have to do manually but in next the routing done automatically. and it uses file base routing , means we have 3 files home, about and contact, next creates routes for each file automatically
+
+3. fullstack app -
+    next has a feature named api routes. which helps to use serverless routes, it helps to build and use apis without worrying about the server stucture. with this feature we can create a api endpoint .to do this we need to make a file route.js which works as api endpiont for that file.
+
+4. automatically code splitting -
+    next spilts a large code into chucks and gets render when it is used. we can also do it in react but its manual there but in next it is automatic
+
+5. its still just react but with added more feature

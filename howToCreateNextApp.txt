@@ -1,0 +1,10 @@
+npx create-next-app@latest 
+
+then chose the requirements
+initially----
+typescript - no
+eslint - no
+tailwind - yes
+src - no
+app - yes
+
